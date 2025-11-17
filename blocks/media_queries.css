@@ -1,0 +1,212 @@
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 254px;
+    height: 66px;
+    margin-top: 30px;
+  }
+
+  .lead {
+    width: 100%;
+  }
+
+  .lead__title {
+    width: 69.01%;
+    margin-top: 90px;
+    font-size: 75px;
+    line-height: 1.05;
+  }
+
+  .lead__subtitle {
+    width: 97%;
+    margin-top: 25px;
+  }
+
+  .lead__image-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .intro {
+    width: 95.25%;
+    margin-top: 90px;
+    margin-left: auto;
+  }
+
+  .intro__title {
+    width: 98.19%;
+    font-size: 45px;
+    line-height: 1.09;
+  }
+
+  .intro__text-top {
+    margin-top: 50px;
+    width: 100%;
+  }
+
+  .intro__text-top-footer {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .intro__text-bottom {
+    width: 100%;
+  }
+
+  .photo-grid {
+    width: 93.75%;
+    margin-top: 64px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .places {
+    width: 95%;
+    margin-top: 88px;
+    gap: 72px;
+  }
+
+  .places__card {
+    column-gap: 28px;
+  }
+
+  .places__title {
+    width: 100%;
+    font-size: 42px;
+    line-height: 1.1;
+    align-content: end;
+  }
+
+  .places__frame-compra {
+    width: 93%;
+  }
+
+  .places__text {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer {
+    margin: 88px auto 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .logo {
+    width: 188px;
+    height: 52px;
+    margin-top: 20px;
+  }
+
+  .lead__title {
+    width: 71.25%;
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .lead__subtitle {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .lead__image-container {
+    margin-top: 40px;
+  }
+
+  .intro {
+    width: 94%;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    width: 100%;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+
+  .intro__text-top {
+    margin-top: 40px;
+    width: 100%;
+    line-height: 1.25;
+  }
+
+  .intro__text-top-footer {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .intro__text-bottom {
+    width: 100%;
+  }
+
+  .photo-grid {
+    width: 90.3%;
+    margin-top: 38px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 12px;
+  }
+
+  .places {
+    width: 100%;
+    margin-top: 62px;
+    gap: 50px;
+  }
+
+  .places__card {
+    width: 100%;
+    grid-template-columns: 1fr 0;
+    grid-template-rows: repeat(5, auto);
+    column-gap: 0;
+    row-gap: 30px;
+  }
+
+  .places__title {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 32px;
+  }
+
+  .places__website {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .places__image {
+    grid-column: 1;
+    grid-row: 3;
+    box-shadow: none;
+  }
+
+  .places__text-container {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .places__frame-compra {
+    width: 94%;
+    margin: 0 auto;
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  .places__text-compra {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer {
+    margin: 65px auto 24px;
+    line-height: 1;
+  }
+}

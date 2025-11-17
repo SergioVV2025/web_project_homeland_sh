@@ -1,0 +1,42 @@
+.intro {
+  width: 64.844%;
+  margin-top: 92px;
+  margin-left: 11.562%;
+  margin-right: auto;
+}
+
+.intro__title {
+  width: 100%;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1.08;
+}
+
+.intro__text-top {
+  margin-top: 40px;
+  width: 88.915%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+}
+
+.intro__text-top-footer {
+  margin-top: 10px;
+  width: 88.192%;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.42;
+  text-align: right;
+}
+
+.intro__text-bottom {
+  margin-top: 32px;
+  width: 86.987%;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.63;
+}
