@@ -1,10 +1,12 @@
 .lead {
+  border: 2px solid red;
   width: 76.875%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .lead__title {
+  border: 4px solid purple;
   width: 73.17%;
   margin-top: 91px;
   margin-left: auto;
@@ -17,6 +19,7 @@
 }
 
 .lead__subtitle {
+  border: 4px solid purple;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -29,11 +32,26 @@
 }
 
 .lead__image-container {
+  border: 4px solid purple;
   width: 100%;
   margin-top: 64px;
+  position: relative;
 }
 
 .lead__image {
+  border: 4px solid purple;
   width: 100%;
   box-shadow: 10px 10px 25px #000000;
+}
+
+.image-comment {
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+
+.commentLead {
+  font-size: 12px;
+  color: yellow;
+  font-weight: 400;
 }
